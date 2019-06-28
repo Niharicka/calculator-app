@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:layout_marginTop="40dp"
+                      android:gravity="center">
+
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/ic_ui_logo"
+                       android:id="@+id/pocket"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:padding="10dp"
+                      android:textStyle="bold"
+                      android:text="Nebula"
+                      android:textSize="50dp"
+                      android:id="@+id/name"/>
+
+        </LinearLayout>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text= "This application was made with the potential of doing calculations easily.The various commands in the application make it more reliable and user friendly.The well integrated circuit aids complex calculations."
+                  android:layout_marginTop="30dp"
+                  android:layout_margin="10dp"
+                  android:padding="10dp"
+                  android:id="@+id/info"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:layout_margin="10dp"
+                  android:gravity="center"
+                  android:text="Version 1.0 Developer Niharika Dhanik"
+                  android:padding="10dp"
+                  android:id="@+id/version"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:layout_margin="10dp"
+                  android:hint="Connect With Us"
+                  android:padding="10dp"
+                  android:id="@+id/connect"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:layout_margin="10dp"
+                  android:text="  Contact Us"
+                  android:drawableLeft="@drawable/ic_mail"
+                  android:padding="10dp"
+                  android:onClick="onClickContactus"
+                  android:id="@+id/contact"/>
+
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:drawableLeft="@drawable/ic_social_facebook"
+                  android:drawablePadding="10dp"
+                  android:gravity="center_vertical"
+                  android:layout_margin="10dp"
+                  android:text="Like on facebook"
+                  android:padding="10dp"
+                  android:onClick="onClickFacebook"
+                  android:id="@+id/facebook"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:drawableLeft="@drawable/ic_social_twitter"
+                  android:drawablePadding="10dp"
+                  android:gravity="center_vertical"
+                  android:layout_margin="10dp"
+                  android:text="Follow us on Twitter"
+                  android:padding="10dp"
+                  android:onClick="onClickTwitter"
+                  android:id="@+id/twitter"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:drawableLeft="@drawable/ic_social_youtube"
+                  android:drawablePadding="10dp"
+                  android:gravity="center_vertical"
+                  android:layout_margin="10dp"
+                  android:text="Watch us on Youtube"
+                  android:padding="10dp"
+                  android:onClick="onClickYoutube"
+                  android:id="@+id/youtube"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:drawableLeft="@drawable/ic_shop"
+                  android:drawablePadding="10dp"
+                  android:gravity="center_vertical"
+                  android:layout_marginTop="20dp"
+                  android:layout_margin="10dp"
+                  android:text="Rate us on Play Store"
+                  android:padding="10dp"
+                  android:onClick="onClickPlaystore"
+                  android:id="@+id/playstore"/>
+
+    </LinearLayout>
+
+</ScrollView>
